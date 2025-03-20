@@ -1,0 +1,128 @@
+<!-- Sidebar Backdrop (for mobile) -->
+<div id="sidebarBackdrop" class="fixed inset-0 bg-gray-600 bg-opacity-50 z-20 lg:hidden hidden"></div>
+
+<!-- Sidebar -->
+<aside id="sidebar"
+    class="fixed inset-y-0 left-0 w-64 bg-white shadow-lg transform -translate-x-full lg:translate-x-0 transition-transform duration-300 ease-in-out z-30">
+    <div class="h-full flex flex-col">
+        <!-- Sidebar Header -->
+        <div class="px-4 py-5 flex items-center justify-between border-b border-gray-200">
+            <div class="flex items-center">
+                <span class="text-xl font-semibold text-primary">Resto Admin</span>
+            </div>
+            <button id="sidebarClose" class="lg:hidden text-gray-500 focus:outline-none">
+                <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 18L18 6M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Sidebar Navigation -->
+        <nav class="flex-1 py-4 overflow-y-auto">
+            <ul>
+                <li class="px-4 py-2">
+                    <a href="dashboard.html"
+                        class="sidebar-item flex items-center px-4 py-2 text-gray-600 rounded-md hover:bg-gray-100">
+                        <svg class="h-5 w-5 mr-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3 12L5 10M5 10L12 3L19 10M5 10V20C5 20.5523 5.44772 21 6 21H9M19 10L21 12M19 10V20C19 20.5523 18.5523 21 18 21H15M9 21C9.55228 21 10 20.5523 10 20V16C10 15.4477 10.4477 15 11 15H13C13.5523 15 14 15.4477 14 16V20C14 20.5523 14.4477 21 15 21M9 21H15"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                        </svg>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+
+                <li class="px-4 py-2">
+                    <a href="menu.html"
+                        class="sidebar-item flex items-center px-4 py-2 text-gray-600 rounded-md hover:bg-gray-100">
+                        <svg class="h-5 w-5 mr-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 5H7C5.89543 5 5 5.89543 5 7V19C5 20.1046 5.89543 21 7 21H17C18.1046 21 19 20.1046 19 19V7C19 5.89543 18.1046 5 17 5H15M9 5C9 6.10457 9.89543 7 11 7H13C14.1046 7 15 6.10457 15 5M9 5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5M12 12H15M12 16H15M9 12H9.01M9 16H9.01"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                        </svg>
+                        <span>Menu</span>
+                    </a>
+                </li>
+
+                <li class="px-4 py-2">
+                    <a href="orders.html"
+                        class="sidebar-item flex items-center px-4 py-2 text-gray-600 rounded-md hover:bg-gray-100">
+                        <svg class="h-5 w-5 mr-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 11V7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7V11M5 9H19L20 21H4L5 9Z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                        </svg>
+                        <span>Pesanan</span>
+                    </a>
+                </li>
+
+                <li class="px-4 py-2">
+                    <a href="tables.html"
+                        class="sidebar-item flex items-center px-4 py-2 text-gray-600 rounded-md hover:bg-gray-100">
+                        <svg class="h-5 w-5 mr-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3 10H21M3 14H21M12 10V18M5 18H19C20.1046 18 21 17.1046 21 16V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V16C3 17.1046 3.89543 18 5 18Z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                        </svg>
+                        <span>Meja</span>
+                    </a>
+                </li>
+
+                <li class="px-4 py-2">
+                    <a href="reservations.html"
+                        class="sidebar-item flex items-center px-4 py-2 text-gray-600 rounded-md hover:bg-gray-100">
+                        <svg class="h-5 w-5 mr-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8 7V3M16 7V3M7 11H17M5 21H19C20.1046 21 21 20.1046 21 19V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7V19C3 20.1046 3.89543 21 5 21Z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                        </svg>
+                        <span>Reservasi</span>
+                    </a>
+                </li>
+
+                <li class="px-4 py-2">
+                    <a href="payments.html"
+                        class="sidebar-item flex items-center px-4 py-2 text-gray-600 rounded-md hover:bg-gray-100">
+                        <svg class="h-5 w-5 mr-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17 9V7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7V9M5 9H19C20.1046 9 21 9.89543 21 11V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V11C3 9.89543 3.89543 9 5 9Z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                        </svg>
+                        <span>Pembayaran</span>
+                    </a>
+                </li>
+
+                <li class="px-4 py-2">
+                    <a href="analytics.html"
+                        class="sidebar-item flex items-center px-4 py-2 text-gray-600 rounded-md hover:bg-gray-100">
+                        <svg class="h-5 w-5 mr-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16 8V16M12 11V16M8 14V16M6 20H18C19.1046 20 20 19.1046 20 18V6C20 4.89543 19.1046 4 18 4H6C4.89543 4 4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20Z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                        </svg>
+                        <span>Analitik</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Sidebar Footer -->
+        <div class="px-4 py-4 border-t border-gray-200">
+            <a href="#" class="flex items-center text-sm text-gray-600 hover:text-primary">
+                <svg class="h-5 w-5 mr-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M10.325 4.317C10.751 2.561 13.249 2.561 13.675 4.317C14.447 7.563 15.111 10.88 15.667 14.248C16.169 14.346 16.651 14.449 17.111 14.555C17.598 14.66 18.001 14.948 17.908 15.438C17.862 15.64 17.775 15.832 17.652 16.002C17.542 16.159 17.379 16.273 17.195 16.325C15.223 16.909 11.219 17.655 7.374 16.293C6.817 16.096 6.697 15.503 6.923 15.055C7.164 14.577 7.471 14.138 7.832 13.755C8.258 13.359 8.03 12.74 7.42 12.662C6.46 12.785 5.499 12.907 4.538 13.029C4.274 13.137 4.042 13.118 3.864 12.996C3.597 12.824 3.426 12.532 3.426 12.206C3.426 11.975 3.524 11.756 3.698 11.611C3.733 11.585 3.771 11.563 3.811 11.545C4.661 11.17 7.081 10.051 8.911 8.922C9.79 8.352 9.107 7.101 8.073 7.192C7.348 7.225 6.752 7.194 6.314 7.137C5.893 7.082 5.563 6.75 5.5 6.329C5.412 5.703 5.954 5.055 6.587 5.001C7.852 4.906 9.133 4.81 10.325 4.317Z"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <span>Bantuan</span>
+            </a>
+        </div>
+    </div>
+</aside>
