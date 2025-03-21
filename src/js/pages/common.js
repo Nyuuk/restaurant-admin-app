@@ -18,13 +18,13 @@ $(document).ready(function() {
   console.log('Restaurant Admin common code initialized');
   
   // Initialize authentication
-  initAuth();
+  // initAuth();
   
   // Redirect to login if not authenticated (except on login page)
-  if (!isAuthenticated() && !window.location.pathname.includes('index.html')) {
-    window.location.href = 'index.html';
-    return;
-  }
+  // if (!isAuthenticated() && !window.location.pathname.includes('index.html')) {
+  //   window.location.href = 'index.html';
+  //   return;
+  // }
   
   // Don't initialize UI components on login page
   if (window.location.pathname.includes('index.html')) {
